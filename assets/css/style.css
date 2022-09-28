@@ -62,6 +62,11 @@ header nav {
 
 /* #region main */
 
+.new_releases{
+    background-color: var(--ps-bg-dark);
+    color: var(--ps-light);
+}
+
 /* #endregion main */
 
 /* #region footer */
