@@ -71,6 +71,11 @@ header nav {
     background-color: var(--ps-bg-dark-lite);
 }
 
+.banner.now{
+    background-color: var(--ps-bg-blue);
+    color: var(--ps-light);
+}
+
 
 /* #endregion main */
 
