@@ -4,33 +4,32 @@
     --ps-light: #FFFFFF;
     --ps-btn-primary: #2D64E6;
     --ps-btn-secondary: #CD3D0F;
+    --ps-btn-dark: #363636;
     --ps-bg-dark-lite: #BEBCBB;
     --ps-bg-blue: #161C3B;
     --ps-bg-blue-lite: #00439C;
     --ps-bg-dark: #1F1F1F;
+
+    
 }
 
 /* #endregion utilities */
 
 /* #region debug */
-.debug header nav {
-    height: 50px;
-    border: 1px solid green;
-}
 
-.debug main .jumbotron{
+.debug main .jumbotron {
     background-color: lightblue;
     padding: 25px;
     text-align: center;
 }
 
-.debug main [class^="col"]{
+.debug main [class^="col"] {
     height: 150px;
     border: 1px solid violet;
     background-color: pink;
 }
 
-.debug .jumbotron.takes_two{
+.debug .jumbotron.takes_two {
     height: 200px;
 }
 
@@ -43,7 +42,7 @@
     height: 50px;
 }
 
-.debug .icons{
+.debug .icons {
     height: 50px;
     width: 50px;
     background-color: red;
@@ -61,12 +60,21 @@ header nav {
     background-color: var(--ps-light);
 }
 
-header img{
+header img {
     width: 50px;
 }
 
-header .navbar img{
+.navbar img {
     height: 50px;
+}
+
+.navbar a {
+    color: var(--ps-dark);
+}
+
+.navbar button{
+    background-color: var(--ps-btn-dark);
+    color: var(--ps-light);
 }
 
 
@@ -74,16 +82,16 @@ header .navbar img{
 
 /* #region main */
 
-.new_releases{
+.new_releases {
     background-color: var(--ps-bg-dark);
     color: var(--ps-light);
 }
 
-.banner.plus{
+.banner.plus {
     background-color: var(--ps-bg-dark-lite);
 }
 
-.banner.now{
+.banner.now {
     background-color: var(--ps-bg-blue);
     color: var(--ps-light);
 }
@@ -92,8 +100,9 @@ header .navbar img{
 /* #endregion main */
 
 /* #region footer */
-footer{
+footer {
     background-color: var(--ps-bg-blue-lite);
     color: var(--ps-light);
 }
+
 /* #endregion footer */
