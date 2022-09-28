@@ -47,6 +47,12 @@
     height: 50px;
 }
 
+.debug .icons{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
 /* #endregion debug */
 
 /* #region header */
