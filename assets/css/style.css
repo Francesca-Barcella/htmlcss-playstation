@@ -13,10 +13,6 @@
 /* #endregion utilities */
 
 /* #region debug */
-.debug header div {
-    height: 25px;
-}
-
 .debug header nav {
     height: 50px;
     border: 1px solid green;
@@ -56,13 +52,23 @@
 /* #endregion debug */
 
 /* #region header */
-header div {
+header .logo {
     background-color: var(--ps-dark);
+    height: 25px;
 }
 
 header nav {
     background-color: var(--ps-light);
 }
+
+header img{
+    width: 50px;
+}
+
+header .navbar img{
+    height: 50px;
+}
+
 
 /* #endregion header */
 
