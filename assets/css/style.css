@@ -21,6 +21,16 @@
     height: 50px;
     border: 1px solid green;
 }
+
+.debug footer {
+    border: 1px solid blue;
+}
+
+.debug footer .dx [class^="col"] {
+    border: 1px solid blue;
+    height: 50px;
+}
+
 /* #endregion debug */
 
 /* #region header */
@@ -31,4 +41,5 @@ header div {
 header nav {
     background-color: var(--ps-light);
 }
+
 /* #endregion header */
