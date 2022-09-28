@@ -67,6 +67,11 @@ header nav {
     color: var(--ps-light);
 }
 
+.banner.plus{
+    background-color: var(--ps-bg-dark-lite);
+}
+
+
 /* #endregion main */
 
 /* #region footer */
