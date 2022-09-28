@@ -22,12 +22,23 @@
     border: 1px solid green;
 }
 
+.debug main .jumbotron{
+    background-color: lightblue;
+    padding: 25px;
+    text-align: center;
+}
+
+.debug main [class^="col"]{
+    height: 150px;
+    border: 1px solid violet;
+    background-color: pink;
+}
 .debug footer {
     border: 1px solid blue;
 }
 
 .debug footer .dx [class^="col"] {
-    border: 1px solid blue;
+    border: 1px solid white;
     height: 50px;
 }
 
@@ -43,3 +54,14 @@ header nav {
 }
 
 /* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+footer{
+    background-color: var(--ps-bg-blue-lite);
+    color: var(--ps-light);
+}
+/* #endregion footer */
