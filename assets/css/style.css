@@ -33,6 +33,11 @@
     border: 1px solid violet;
     background-color: pink;
 }
+
+.debug .jumbotron.takes_two{
+    height: 200px;
+}
+
 .debug footer {
     border: 1px solid blue;
 }
