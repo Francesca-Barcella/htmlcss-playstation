@@ -1,12 +1,34 @@
 /* #region utilities */
-:root{
---ps-dark:#000000;
---ps-light:#FFFFFF;
---ps-btn-primary:#2D64E6;
---ps-btn-secondary:#CD3D0F;
---ps-bg-dark-lite:#BEBCBB;
---ps-bg-blue:#161C3B;
---ps-bg-blue-lite:#00439C;
---ps-bg-dark:#1F1F1F;
+:root {
+    --ps-dark: #000000;
+    --ps-light: #FFFFFF;
+    --ps-btn-primary: #2D64E6;
+    --ps-btn-secondary: #CD3D0F;
+    --ps-bg-dark-lite: #BEBCBB;
+    --ps-bg-blue: #161C3B;
+    --ps-bg-blue-lite: #00439C;
+    --ps-bg-dark: #1F1F1F;
 }
+
 /* #endregion utilities */
+
+/* #region debug */
+.debug header div {
+    height: 25px;
+}
+
+.debug header nav {
+    height: 50px;
+    border: 1px solid green;
+}
+/* #endregion debug */
+
+/* #region header */
+header div {
+    background-color: var(--ps-dark);
+}
+
+header nav {
+    background-color: var(--ps-light);
+}
+/* #endregion header */
