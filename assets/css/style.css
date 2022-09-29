@@ -41,6 +41,7 @@ p {
     --ps-btn-primary: #2D64E6;
     --ps-btn-secondary: #CD3D0F;
     --ps-btn-dark: #363636;
+    --ps-btn-light:#D9DADC;
     --ps-bg-dark-lite: #BEBCBB;
     --ps-bg-blue: #161C3B;
     --ps-bg-blue-lite: #00439C;
@@ -57,6 +58,11 @@ p {
     color: var(--ps-light);
 }
 
+.btn_light{
+    background-color: var(--ps-btn-light);
+    color: var(--ps-btn-primary);
+}
+
 /* #endregion utilities */
 
 /* #region debug */
@@ -66,9 +72,6 @@ p {
     text-align: center;
 }
 
-.debug .new_release [class^="col"],
-.debug .playstation .four [class^="col"],
-.debug .banner.plus [class^="col"],
 .debug .playstation.store [class^="col"],
 .debug .banner.now [class^="col"],
 .debug .social [class^="col"],
@@ -144,6 +147,17 @@ header img {
     max-width: 240px;
 }
 
+.banner.plus{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.banner.plus img{
+    max-height: 140px;
+}
+
 .new_releases {
     background-color: var(--ps-bg-dark);
     color: var(--ps-light);
@@ -167,3 +181,11 @@ footer {
 }
 
 /* #endregion footer */
+
+/* #region media query */
+@media screen and (max-width: 760px) {
+    .banner.plus{
+        background-image: none;
+    }
+}
+/* #endregion media query */
