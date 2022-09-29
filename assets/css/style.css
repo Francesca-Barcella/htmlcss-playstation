@@ -67,7 +67,6 @@ p {
 
 /* #region debug */
 
-.debug .social [class^="col"],
 .debug footer [class^="col"] {
     height: 300px;
     border: 1px solid violet;
@@ -170,6 +169,10 @@ header img {
 .banner.now {
     background-color: var(--ps-bg-blue);
     color: var(--ps-light);
+}
+
+.social img{
+    width: 50%;
 }
 
 /* #endregion main */
