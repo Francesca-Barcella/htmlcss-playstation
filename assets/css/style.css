@@ -52,8 +52,6 @@ p {
     text-align: center;
 }
 
-.debug .slide [class^="col"],
-.debug .playstation5 [class^="col"],
 .debug .jumbotron.takes_two [class^="col"],
 .debug .new_release [class^="col"],
 .debug .playstation .four [class^="col"],
@@ -62,7 +60,7 @@ p {
 .debug .banner.now [class^="col"],
 .debug .social [class^="col"],
 .debug footer [class^="col"] {
-    height: 150px;
+    height: 300px;
     border: 1px solid violet;
     background-color: pink;
 }
@@ -122,6 +120,15 @@ header img {
     background-color: var(--ps-btn-secondary);
 }
 
+.playstation5>h4{
+    color: var(--ps-btn-primary);
+}
+
+.playstation5 button{
+    background-color: var(--ps-btn-primary);
+    color: var(--ps-light);
+}
+
 .new_releases {
     background-color: var(--ps-bg-dark);
     color: var(--ps-light);
@@ -135,7 +142,6 @@ header img {
     background-color: var(--ps-bg-blue);
     color: var(--ps-light);
 }
-
 
 /* #endregion main */
 
