@@ -59,7 +59,7 @@ p {
 }
 
 .btn_light{
-    background-color: var(--ps-btn-light);
+    background-color: var(--ps-light);
     color: var(--ps-btn-primary);
 }
 
@@ -67,12 +67,6 @@ p {
 
 /* #region debug */
 
-.debug main .jumbotron {
-    background-color: lightblue;
-    text-align: center;
-}
-
-.debug .banner.now [class^="col"],
 .debug .social [class^="col"],
 .debug footer [class^="col"] {
     height: 300px;
@@ -157,6 +151,13 @@ header img {
     max-height: 140px;
 }
 
+.banner.now{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
 .new_releases {
     background-color: var(--ps-bg-dark);
     color: var(--ps-light);
@@ -184,6 +185,10 @@ footer {
 /* #region media query */
 @media screen and (max-width: 760px) {
     .banner.plus{
+        background-image: none;
+    }
+
+    .banner.now{
         background-image: none;
     }
 }
