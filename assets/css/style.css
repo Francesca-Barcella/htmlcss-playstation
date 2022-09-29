@@ -43,6 +43,16 @@ p {
     --ps-bg-dark: #1F1F1F;
 }
 
+.btn_primary{
+    background-color: var(--ps-btn-primary);
+    color: var(--ps-light);
+}
+
+.btn_secondary{
+    background-color: var(--ps-btn-secondary);
+    color: var(--ps-light);
+}
+
 /* #endregion utilities */
 
 /* #region debug */
@@ -52,7 +62,6 @@ p {
     text-align: center;
 }
 
-.debug .jumbotron.takes_two [class^="col"],
 .debug .new_release [class^="col"],
 .debug .playstation .four [class^="col"],
 .debug .banner.plus [class^="col"],
@@ -63,10 +72,6 @@ p {
     height: 300px;
     border: 1px solid violet;
     background-color: pink;
-}
-
-.debug .jumbotron.takes_two {
-    height: 200px;
 }
 
 .debug footer {
@@ -116,17 +121,23 @@ header img {
 /* #endregion header */
 
 /* #region main */
-.jumbotron.slide .btn{
-    background-color: var(--ps-btn-secondary);
-}
 
 .playstation5>h4{
     color: var(--ps-btn-primary);
 }
 
 .playstation5 button{
-    background-color: var(--ps-btn-primary);
     color: var(--ps-light);
+}
+
+.jumbotron.takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    color: var(--ps-light);
+}
+
+.jumbotron.takes_two img{
+    max-width: 240px;
 }
 
 .new_releases {
