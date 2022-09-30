@@ -1,5 +1,5 @@
 /* #region common */
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -32,11 +32,11 @@ p {
     font-size: 16px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--ps-light);
 }
@@ -50,24 +50,24 @@ a{
     --ps-btn-primary: #2D64E6;
     --ps-btn-secondary: #CD3D0F;
     --ps-btn-dark: #363636;
-    --ps-btn-light:#D9DADC;
+    --ps-btn-light: #D9DADC;
     --ps-bg-dark-lite: #BEBCBB;
     --ps-bg-blue: #161C3B;
     --ps-bg-blue-lite: #00439C;
     --ps-bg-dark: #1F1F1F;
 }
 
-.btn_primary{
+.btn_primary {
     background-color: var(--ps-btn-primary);
     color: var(--ps-light);
 }
 
-.btn_secondary{
+.btn_secondary {
     background-color: var(--ps-btn-secondary);
     color: var(--ps-light);
 }
 
-.btn_light{
+.btn_light {
     background-color: var(--ps-light);
     color: var(--ps-btn-primary);
 }
@@ -107,36 +107,44 @@ header img {
 /* #endregion header */
 
 /* #region main */
-.playstation5>h4{
+.jumbotron.returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: var(--ps-light);
+}
+
+.playstation5>h4 {
     color: var(--ps-btn-primary);
 }
 
-.playstation5 button{
+.playstation5 button {
     color: var(--ps-light);
 }
 
-.jumbotron.takes_two{
+.jumbotron.takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: center;
     color: var(--ps-light);
 }
 
-.jumbotron.takes_two img{
+.jumbotron.takes_two img {
     max-width: 240px;
 }
 
-.banner.plus{
+.banner.plus {
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position: right;
 }
 
-.banner.plus img{
+.banner.plus img {
     max-height: 140px;
 }
 
-.banner.now{
+.banner.now {
     background-image: url(../img/ps-now-april-featured-image-block.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -157,7 +165,7 @@ header img {
     color: var(--ps-light);
 }
 
-.social img{
+.social img {
     width: 120px;
 }
 
@@ -169,43 +177,43 @@ footer {
     color: var(--ps-light);
 }
 
-.footer_top img{
+.footer_top img {
     height: 80px;
 }
 
-.footer_top .world{
+.footer_top .world {
     max-width: 20px;
 }
 
-.footer_bottom img{
+.footer_bottom img {
     width: 130px;
 }
 
-.footer_bottom a{
+.footer_bottom a {
     text-decoration: underline;
 }
-
 
 /* #endregion footer */
 
 /* #region media query */
-@media screen and (max-width: 760px) {
-    .banner.plus{
+@media screen and (max-width: 767px) {
+    .banner.plus {
         background-image: none;
     }
 
-    .banner.now{
+    .banner.now {
         background-image: none;
     }
 
-    .social img{
+    .social img {
         width: 240px;
     }
 }
 
 @media screen and (min-width: 760px) {
-    .footer_top_dx .row .col{
+    .footer_top_dx .row .col {
         margin-left: -1.5rem;
     }
 }
+
 /* #endregion media query */

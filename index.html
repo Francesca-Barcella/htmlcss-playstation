@@ -23,15 +23,15 @@
         <!-- nav bar -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/play_logo.svg" alt="Logo" class="d-inline-block align-text-top">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>             
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/img/play_logo.svg" alt="Logo" class="d-inline-block align-text-top">
-                    </a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -78,7 +78,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Novit*
+                                Novit&#224;
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -146,9 +146,7 @@
     </header>
 
     <main id="site_main">
-        <!-- jumbotron slide -->
-        <section class="jumbotron slide">
-            <!-- btn (bottom) carousel -->
+       <!--  <section class="jumbotron carosello">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -176,7 +174,6 @@
                         <img class="py-5" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                     </button>
                 </div>
-                <!-- img carousel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./assets/img/returnal-listing-thumb-01-ps5.jpg" class="d-block w-100" alt="...">
@@ -226,7 +223,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- frecce scorrimento -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -235,6 +231,22 @@
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </button>
+            </div>
+        </section> -->
+
+        <!-- returnal -->
+        <section class="jumbotron returnal py-5 px-3">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-12 col-md-6 col-xl-4 py-5">
+                        <img class="pb-3" src="./assets/img/returnal-hero-banner-logo.png" alt="">
+                        <h1 class="pb-3">Rompi il cerchio</h1>
+                        <p class="pb-3">
+                            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantasascientifico, disponibile in esclusiva su PS5
+                        </p>
+                        <button class="btn btn_secondary rounded-pill" type="submit">Acquista ora</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -259,12 +271,11 @@
                 <div class="row row-cols-3 row-cols-md-5 flex-wrap gx-3">
                     <div class="col border-bottom border-2 border-primary pb-3">
                         <img class="pb-3" src="./assets/img/playstation-5-thumb.png" alt="">
-                        <p>Console PS5</p>
-
+                        <p><strong>Console PS5</strong></p>
                     </div>
                     <div class="col">
                         <img class="pb-3" src="./assets/img/joypad-thumb.png" alt="">
-                        <p><strong>Controller wireless DualSense</strong></p>
+                        <p>Controller wireless DualSense</p>
                     </div>
                     <div class="col">
                         <img class="pb-3" src="./assets/img/headset-thumb.png" alt="">
@@ -451,8 +462,9 @@
                             Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2
                             su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese
                         </p>
-                        <button class="btn btn_light rounded-pill" type="submit"><strong>Esplora PlayStation
-                                Now</strong></button>
+                        <button class="btn btn_light rounded-pill" type="submit">
+                            <strong>Esplora PlayStationNow</strong>
+                        </button>
                     </div>
                 </div>
             </div>
