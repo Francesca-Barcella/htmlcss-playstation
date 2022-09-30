@@ -172,7 +172,7 @@ header img {
 }
 
 .social img{
-    width: 50%;
+    width: 120px;
 }
 
 /* #endregion main */
@@ -193,6 +193,10 @@ footer {
 
     .banner.now{
         background-image: none;
+    }
+
+    .social img{
+        width: 240px;
     }
 }
 /* #endregion media query */
