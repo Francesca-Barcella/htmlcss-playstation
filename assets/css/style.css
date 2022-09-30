@@ -74,9 +74,6 @@ a {
 
 /* #endregion utilities */
 
-/* #region debug */
-/* #endregion debug */
-
 /* #region header */
 header .logo {
     background-color: var(--ps-dark);
@@ -102,6 +99,19 @@ header img {
 .navbar button {
     background-color: var(--ps-btn-dark);
     color: var(--ps-light);
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    font: var(--fa-font-solid);
+    color: grey;
+    margin-left: 0.75rem;
+    content: "\f107";
+    border: none;
 }
 
 /* #endregion header */
