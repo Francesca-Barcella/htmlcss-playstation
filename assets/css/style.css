@@ -32,6 +32,15 @@ p {
     font-size: 16px;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--ps-light);
+}
+
 /* #endregion common */
 
 /* #region utilities */
@@ -66,28 +75,6 @@ p {
 /* #endregion utilities */
 
 /* #region debug */
-
-.debug footer [class^="col"] {
-    height: 300px;
-    border: 1px solid violet;
-    background-color: pink;
-}
-
-.debug footer {
-    border: 1px solid blue;
-}
-
-.debug footer .dx [class^="col"] {
-    border: 1px solid white;
-    height: 50px;
-}
-
-.debug .icons {
-    height: 50px;
-    width: 50px;
-    background-color: red;
-}
-
 /* #endregion debug */
 
 /* #region header */
@@ -120,7 +107,6 @@ header img {
 /* #endregion header */
 
 /* #region main */
-
 .playstation5>h4{
     color: var(--ps-btn-primary);
 }
@@ -173,6 +159,18 @@ header img {
 
 .social img{
     width: 120px;
+}
+
+.footer_top img{
+    height: 80px;
+}
+
+.footer_top .world{
+    max-width: 20px;
+}
+
+.footer_bottom img{
+    width: 130px;
 }
 
 /* #endregion main */
