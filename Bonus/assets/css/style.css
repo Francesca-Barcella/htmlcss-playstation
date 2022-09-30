@@ -67,15 +67,9 @@ a {
     color: var(--ps-light);
 }
 
-.btn_secondary {
-    background-color: var(--ps-btn-secondary);
-    color: var(--ps-light);
-}
 
-.jumbotron .btn_secondary:hover {
-    background-color: orange;
-    outline: red solid 5px;
-}
+
+
 
 .btn_light {
     background-color: var(--ps-light);
@@ -276,6 +270,18 @@ footer {
     border: 2px solid var(--ps-btn-primary);
     position: relative;
     bottom: 10px;
+}
+
+.btn_secondary {
+    background-color: var(--ps-btn-secondary);
+    color: var(--ps-light);
+    transition: 1s;
+}
+
+.jumbotron .btn_secondary:hover {
+    background-color: var(--ps-btn-secondary);
+    outline: var(--ps-btn-secondary) solid 8px;
+    outline-style: double;
 }
 
 
