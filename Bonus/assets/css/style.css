@@ -72,11 +72,10 @@ a {
     color: var(--ps-light);
 }
 
-.btn_secondary:hover {
-    background-color: red;
-    color: green;
+.jumbotron .btn_secondary:hover {
+    background-color: orange;
+    outline: red solid 5px;
 }
-
 
 .btn_light {
     background-color: var(--ps-light);
@@ -277,7 +276,6 @@ footer {
     border: 2px solid var(--ps-btn-primary);
     position: relative;
     bottom: 10px;
-
 }
 
 
