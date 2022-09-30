@@ -129,6 +129,11 @@ header img {
     color: var(--ps-light);
 }
 
+.border_active{
+    border: 1px solid var(--ps-bg-blue-lite);
+    border-radius: 1rem;
+}
+
 .playstation5>h4 {
     color: var(--ps-btn-primary);
 }
