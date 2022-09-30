@@ -161,6 +161,14 @@ header img {
     width: 120px;
 }
 
+/* #endregion main */
+
+/* #region footer */
+footer {
+    background-color: var(--ps-bg-blue-lite);
+    color: var(--ps-light);
+}
+
 .footer_top img{
     height: 80px;
 }
@@ -177,13 +185,6 @@ header img {
     text-decoration: underline;
 }
 
-/* #endregion main */
-
-/* #region footer */
-footer {
-    background-color: var(--ps-bg-blue-lite);
-    color: var(--ps-light);
-}
 
 /* #endregion footer */
 
@@ -199,6 +200,12 @@ footer {
 
     .social img{
         width: 240px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .footer_top_dx .row .col{
+        margin-left: -1.5rem;
     }
 }
 /* #endregion media query */
