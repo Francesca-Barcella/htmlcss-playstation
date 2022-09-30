@@ -138,9 +138,9 @@ header img {
     color: var(--ps-light);
 }
 
-.border_active {
-    border: 1px solid var(--ps-bg-blue-lite);
-    border-radius: 1rem;
+.slide .border_active {
+    border: 2px solid var(--ps-bg-blue-lite);
+
 }
 
 .playstation5>h4 {
@@ -258,12 +258,26 @@ footer {
     border-bottom: 2px solid var(--ps-btn-primary);
 }
 
-.playstation5 .opacity_50{
+.playstation5 .opacity_50 {
     opacity: 0.5;
 }
 
-.playstation5 .card_ps5:hover .opacity_50{
-   opacity: 1;
+.playstation5 .card_ps5:hover .opacity_50 {
+    opacity: 1;
+}
+
+.slide img {
+    border: 0;
+    position: relative;
+    bottom: 0;
+    transition: bottom 1s;
+}
+
+.slide img:hover {
+    border: 2px solid var(--ps-btn-primary);
+    position: relative;
+    bottom: 10px;
+
 }
 
 
