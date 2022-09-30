@@ -173,6 +173,10 @@ header img {
     width: 130px;
 }
 
+.footer_bottom a{
+    text-decoration: underline;
+}
+
 /* #endregion main */
 
 /* #region footer */
