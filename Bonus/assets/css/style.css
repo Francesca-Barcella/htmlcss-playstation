@@ -67,9 +67,17 @@ a {
     color: var(--ps-light);
 }
 
+.btn_secondary {
+    background-color: var(--ps-btn-secondary);
+    color: var(--ps-light);
+    transition: 1s;
+}
 
-
-
+.jumbotron .btn_secondary:hover {
+    background-color: var(--ps-btn-secondary);
+    outline: var(--ps-btn-secondary) solid 8px;
+    outline-style: double;
+}
 
 .btn_light {
     background-color: var(--ps-light);
@@ -272,16 +280,8 @@ footer {
     bottom: 10px;
 }
 
-.btn_secondary {
-    background-color: var(--ps-btn-secondary);
+.footer_top_dx a:hover {
     color: var(--ps-light);
-    transition: 1s;
-}
-
-.jumbotron .btn_secondary:hover {
-    background-color: var(--ps-btn-secondary);
-    outline: var(--ps-btn-secondary) solid 8px;
-    outline-style: double;
 }
 
 
