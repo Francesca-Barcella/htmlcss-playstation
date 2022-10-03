@@ -189,13 +189,6 @@ header img {
     color: var(--ps-btn-primary);
 }
 
-
-.playstation5 .ps_border {
-    width: 100%;
-    height: 2px;
-    background-color: var(--ps-btn-primary);
-}
-
 .jumbotron.takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -293,12 +286,18 @@ footer {
 /* #endregion media query */
 
 /* #region hover&effects */
-.playstation5 .card_ps5:hover {
+.card_ps5{
+    border-bottom: 2px solid var(--ps-light);
+    transition: 0.75s ;
+}
+
+.card_ps5:hover{
     border-bottom: 2px solid var(--ps-btn-primary);
 }
 
 .playstation5 .opacity_50 {
     opacity: 0.5;
+    transition: 0.75s;
 }
 
 .playstation5 .card_ps5:hover .opacity_50 {
