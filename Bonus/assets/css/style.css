@@ -136,6 +136,10 @@ header img {
 /* #endregion header */
 
 /* #region main */
+
+#site_main{
+    margin-top: 58px;
+}
 .jumbotron.returnal {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
