@@ -65,6 +65,17 @@ a {
 .btn_primary {
     background-color: var(--ps-btn-primary);
     color: var(--ps-light);
+    transition: 1s;
+}
+
+.playstation5 .btn_primary:hover,
+.takes_two .btn_primary:hover,
+.playstation4 .btn_primary:hover {
+    background-color: var(--ps-btn-primary);
+    color: var(--ps-light);
+    outline: var(--ps-btn-primary) solid 8px;
+    outline-style: double;
+
 }
 
 .btn_secondary {
@@ -97,16 +108,13 @@ a {
     transition: 1s;
 }
 
-header .navbar .btn_dark:hover {
+.navbar .btn_dark:hover {
     background-color: var(--ps-btn-dark);
     color: var(--ps-light);
     outline: var(--ps-btn-dark) solid 6px;
     outline-style: double;
 }
 
-.playstation5 .btn {
-    box-shadow: none;
-}
 
 /* #endregion button */
 
@@ -285,7 +293,6 @@ footer {
 /* #endregion media query */
 
 /* #region hover&effects */
-
 .playstation5 .card_ps5:hover {
     border-bottom: 2px solid var(--ps-btn-primary);
 }
