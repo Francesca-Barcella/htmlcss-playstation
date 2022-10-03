@@ -82,6 +82,14 @@ a {
 .btn_light {
     background-color: var(--ps-light);
     color: var(--ps-btn-primary);
+    transition: 1s;
+}
+
+.banner .btn_light:hover {
+    background-color:var(--ps-light);
+    outline: var(--ps-light) solid 8px;
+    color: var(--ps-btn-primary);
+    outline-style: double;
 }
 
 .btn_dark {
@@ -120,6 +128,14 @@ header img {
     color: var(--ps-light);
 }
 
+.navbar .dropdown-menu{
+    background-color: lightcoral;
+}
+
+.nav-item.dropdown{
+    position: relative;
+}
+
 .dropdown-toggle {
     display: flex;
     align-items: center;
@@ -156,9 +172,6 @@ header img {
     color: var(--ps-btn-primary);
 }
 
-.playstation5 button {
-    color: var(--ps-light);
-}
 
 .playstation5 .ps_border {
     width: 100%;
