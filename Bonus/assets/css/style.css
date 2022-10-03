@@ -88,6 +88,10 @@ a {
     background-color: var(--ps-btn-dark);
 }
 
+.playstation5 .btn{
+    box-shadow: none;
+}
+
 /* #endregion button */
 
 /* #region header */
@@ -255,6 +259,7 @@ footer {
 /* #endregion media query */
 
 /* #region hover&effects */
+
 .playstation5 .card_ps5:hover {
     border-bottom: 2px solid var(--ps-btn-primary);
 }
@@ -283,6 +288,4 @@ footer {
 .footer_top_dx a:hover {
     color: var(--ps-light);
 }
-
-
 /* #endregion hover&effects */
