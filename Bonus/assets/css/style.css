@@ -86,7 +86,7 @@ a {
 }
 
 .banner .btn_light:hover {
-    background-color:var(--ps-light);
+    background-color: var(--ps-light);
     outline: var(--ps-light) solid 8px;
     color: var(--ps-btn-primary);
     outline-style: double;
@@ -94,9 +94,17 @@ a {
 
 .btn_dark {
     background-color: var(--ps-btn-dark);
+    transition: 1s;
 }
 
-.playstation5 .btn{
+header .navbar .btn_dark:hover {
+    background-color: var(--ps-btn-dark);
+    color: var(--ps-light);
+    outline: var(--ps-btn-dark) solid 6px;
+    outline-style: double;
+}
+
+.playstation5 .btn {
     box-shadow: none;
 }
 
@@ -128,11 +136,11 @@ header img {
     color: var(--ps-light);
 }
 
-.navbar .dropdown-menu{
+.navbar .dropdown-menu {
     background-color: lightcoral;
 }
 
-.nav-item.dropdown{
+.nav-item.dropdown {
     position: relative;
 }
 
@@ -153,9 +161,10 @@ header img {
 
 /* #region main */
 
-#site_main{
+#site_main {
     margin-top: 58px;
 }
+
 .jumbotron.returnal {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -305,4 +314,5 @@ footer {
 .footer_top_dx a:hover {
     color: var(--ps-light);
 }
+
 /* #endregion hover&effects */
